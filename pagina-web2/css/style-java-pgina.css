@@ -1,0 +1,161 @@
+.main-shit-1{
+    margin-left:170px ;
+    margin-top: 110px;
+    margin-right: 5px;
+   background-image: url(/pagina-web2/img/pexels-cátia-matos-1072179.jpg);
+
+    background-size: cover;
+    height: 2000px;
+}
+#countable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: 5px 5px 4px red;
+    text-align: center;
+}
+#butuncontainer{
+    text-align: center;
+
+}
+.boton{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: black;
+    background-color: cyan;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.boton:hover{
+    background-color: darkcyan;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+#clock{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 0px 4px white;
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+/***********************************************************/
+#dondestopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h1-stop{
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px gray;
+    color: 0 0 0.25 black;
+}
+#stop-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+#display-stop{
+    font-size: 6rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(52, 52, 52);
+    margin-bottom: 15px;
+}
+#butons-stop button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    transition: background-color 0.5s ease;
+}
+#start-boton{
+    background-color: greenyellow;
+}
+#stop-boton{
+    background-color: red;
+}
+#reset-boton{
+    background-color: gray;
+}
+#start-boton:hover{
+    background-color: rgb(113, 185, 4);
+}
+#stop-boton:hover{
+    background-color: rgb(220, 0, 0);
+}
+#reset-boton:hover{
+    background-color: rgb(85, 85, 85);
+}
+/******************************************************/
+.botoncalculadora{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(73, 73, 75, 0.992);
+    color: white;
+    font-size: 2rem ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 10px;
+    padding: 25px;
+}
+#calculator{
+    --borderradiousbottom:15px;
+    background-color: rgb(38, 38, 38);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: var(--borderradiousbottom);
+    border-bottom-right-radius: var(--borderradiousbottom);
+    overflow: hidden;
+    width: fit-content;
+    scale: 0.9;
+}
+#calculator-display{
+    width: 440px;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    color: white;
+    background-color: rgb(58, 58, 58);
+}
+
+.calculadora-espacio{
+    display: flex;
+    justify-content: center;
+}
+.botoncalculadora:hover {
+    background-color: rgb(114, 114, 114)
+}
+.botoncalculadora:active {
+    background-color: rgb(162, 162, 162)
+}
+.operator-btn{
+    background-color: rgb(220, 151, 22);
+}
+.operator-btn:hover{
+    background-color: rgb(255, 184, 51);
+}
+.operator-btn:active{
+    background-color: rgb(250, 202, 113);
+}
